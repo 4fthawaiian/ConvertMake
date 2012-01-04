@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancelEditing = id; finishEditing = id; }; 
+            CLASS = MyPreferences; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {prefsWindow = NSWindow; tempFilesRB = NSMatrix; warnAboutCleanCB = NSButton; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
